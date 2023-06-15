@@ -9,7 +9,7 @@ private:
 	int top;
 
 public:
-	program() {
+	void program() {
 		top = -1;
 	}
 
