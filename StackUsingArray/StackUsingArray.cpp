@@ -9,7 +9,7 @@ private:
 	int top;
 
 public:
-	program() {
+	Program() {
 		top = -1;
 	}
 
@@ -55,11 +55,11 @@ public:
 };
 
 int main() {
-	program s:
+	Program s;
 
 	while (true) {
 		cout << endl;
-		cout << "\n***stack menu***\n";
+		cout << "\n***stack cecilion***\n";
 		cout << "1. Push\n";
 		cout << "2. Pop\n";
 		cout << "3. Display\n";
