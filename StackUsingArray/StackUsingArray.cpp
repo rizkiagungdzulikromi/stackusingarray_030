@@ -9,7 +9,7 @@ private:
 	int top;
 
 public:
-	void program() {
+	program() {
 		top = -1;
 	}
 
@@ -47,9 +47,31 @@ public:
 			cout << "\nStack is empty." << endl;
 		}
 		else {
-		
+			for (int tmp = top; tmp >= 0; tmp--) {
+				cout << stack_array[tmp] << endl;
+			}
 		}
 	}
-
-
 };
+
+int main() {
+	program s:
+
+	while (true) {
+		cout << endl;
+		cout << "\n***stack menu***\n";
+		cout << "1. Push\n";
+		cout << "2. Pop\n";
+		cout << "3. Display\n";
+		cout << "4. Exit\n";
+		cout << "\nEnter your choice: ";
+		string input;
+		getline(cin, input);
+		char ch = (input.empty() ? '0' : input[0]);
+		switch (ch) {
+		case '1': {
+
+		}
+		}
+	}
+}
