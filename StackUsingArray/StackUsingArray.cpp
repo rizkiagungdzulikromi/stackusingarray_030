@@ -41,13 +41,13 @@ public:
 	bool empty() {
 		return (top == -1);
 	}
-
+	 
 	void display() {
 		if (empty()) {
 			cout << "\nStack is empty." << endl;
 		}
 		else {
-
+		
 		}
 	}
 
